@@ -17,9 +17,11 @@ def line(q)
 end
 
 def take_a_number( katz_deli, name)
-  a.push(name)
-  a.each do |name|
+
+a = []
+    if a.size == 0
   puts "The line is currently: #{"name" + 1}"
+  a.push(name)
   #for each of clients(elements/strings) in the array that we input empty
   #adds the person to end of the array
   
