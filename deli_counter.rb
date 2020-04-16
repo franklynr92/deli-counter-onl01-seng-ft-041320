@@ -17,7 +17,6 @@
 # end  
 # end 
 
-
 # def now_serving
 # if #condition 
 #   puts "Welcome, #{name}. You are #{number} in line."
@@ -35,7 +34,9 @@ def line(q)
     #The line if currently:["logan", "Avi" "Spencer"]
     deli = []
     q.each_with_index {|name, index| deli <<"#{index+1}. #{name}"}
-    puts "The line if currently: #{deli.join(" ")}"
+    puts "The line is currently: #{deli.join(" ")}"
     
   end
 end
+
+  
