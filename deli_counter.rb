@@ -16,15 +16,13 @@ def line(q)
   end
 end
 
-def take_a_number( katz_deli, name)
-
-a = []
-    if a.size == 0
-  puts "Welcome, # line is currently: #{"name"}"
+def take_a_number( a, name)
   a.push(name)
+  place = a.index(name)
+  puts "Welcome, #{name}. You are number  #{place + 1} in line"
+  
   #for each of clients(elements/strings) in the array that we input empty
   #adds the person to end of the array
-  a.size += 1
 end  
 end 
 
