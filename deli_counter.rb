@@ -16,7 +16,7 @@ def line(q)
   end
 end
 
-def take_a_number(katz_deli, other_deli)
+def take_a_number(q, katz_deli)
   other_deli[]
   other_deli.each do |client|
   puts "The line is currently: #{"client" + 1}"
