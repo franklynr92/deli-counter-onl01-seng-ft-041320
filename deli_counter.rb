@@ -31,6 +31,6 @@ def line(q)
   else 
     puts "The line is currently: "
     q.each_with_index {|name, index|
-    puts "index:#{index} for #{name}"}
+    puts "index:#{index}. for #{name}"}
   end
 end
