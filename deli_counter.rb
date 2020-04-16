@@ -17,7 +17,7 @@ def line(q)
 end
 
 def take_a_number(q, katz_deli)
-  other_deli[]
+  other_deli[] <<
   other_deli.each do |client|
   puts "The line is currently: #{"client" + 1}"
   #for each of clients(elements/strings) in the array that we input empty
