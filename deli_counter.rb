@@ -1,11 +1,20 @@
 # Write your code here.
 
-# def line(a)
-#   if katz_deli.length == 0
-#   puts "The line is currently empty."
-#   arr[]
-# end
-# end
+def line(q)
+  if q.size == 0
+     puts "The line is currently empty."
+  else 
+    #1. we have an array of the names
+    #2. iterate over each element in the array and out the correct in front
+    #3. the return value ultimately needs to be one string
+    #["logan", "Avi" "Spencer"]
+    #The line if currently:["logan", "Avi" "Spencer"]
+    deli = []
+    q.each_with_index {|name, index| deli <<"#{index+1}. #{name}"}
+    puts "The line is currently: #{deli.join(" ")}"
+    
+  end
+end
 
 # def take_a_number(katz_deli, other_deli)
 #   other_deli[]
@@ -23,20 +32,6 @@
 #   else # condition = 0
 #   puts "There is nobody waiting to be served!"
 # end
-def line(q)
-  if q.size == 0
-     puts "The line is currently empty."
-  else 
-    #1. we have an array of the names
-    #2. iterate over each element in the array and out the correct in front
-    #3. the return value ultimately needs to be one string
-    #["logan", "Avi" "Spencer"]
-    #The line if currently:["logan", "Avi" "Spencer"]
-    deli = []
-    q.each_with_index {|name, index| deli <<"#{index+1}. #{name}"}
-    puts "The line is currently: #{deli.join(" ")}"
-    
-  end
-end
+
 
   
