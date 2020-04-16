@@ -33,7 +33,7 @@ def line(q)
     #3. the return value ultimately needs to be one string
     #["logan", "Avi" "Spencer"]
     #The line if currently:["logan", "Avi" "Spencer"]
-    other_deli= []
+    other_deli = []
     q.each_with_index {|name, index| other_deli <<"#{index+1}. #{name}"}
     puts "The line if currently: #{other_deli.join(" ")}"
     
