@@ -24,13 +24,15 @@
 #   else # condition = 0
 #   puts "There is nobody waiting to be served!"
 # end
-
 def line(q)
-  if q.size == 0 
-    puts "The line is currently empty."
+  if q.size == 0
+     puts "The line is currently empty."
   else 
-    
-    q.each_with_index puts "The line is currently: |name, index|
-     index: #{index} #{name}"
+    #1. we have an array of the names
+    #2. iterate over each element in the array and out the correct in front
+    #3. the return value ultimately needs to be one string
+    #["logan", "Avi" "Spencer"]
+    #The line if currently:["logan", "Avi" "Spencer"]
+    puts "The line if currently: #{q.join(" , ")}"
   end
 end
