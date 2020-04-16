@@ -29,7 +29,10 @@ end
 
 
 
-def now_serving
+def now_serving(q)
+if q.size == 0
+     puts "The line is currently empty." 
+  else 
 # if #condition 
 #   puts "Welcome, #{name}. You are #{number} in line."
 #   else # condition = 0
