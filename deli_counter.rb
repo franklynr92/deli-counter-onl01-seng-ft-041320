@@ -29,8 +29,8 @@ def line(q)
   if q.size == 0 
     puts "The line is currently empty."
   else 
-    puts "The line is currently: 
-    q.each_with_index {|name, index|
+    
+    q.each_with_indexputs "The line is currently: {|name, index|
     puts "index:#{index} for #{name}"}
   end
 end
