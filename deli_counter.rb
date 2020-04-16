@@ -7,7 +7,7 @@ def line(array)
 end
 end
 
-def take_a_number(array, katz_deliz)
+def take_a_number(line, katz_deliz)
   katz_deli[]
   katz_deli.each do |client|
   puts "The line is currently: #{"client"}"
