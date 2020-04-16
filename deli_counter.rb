@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(array)
-  katz_deliz = [] 
+
   if katz_deliz.length == 0
   puts "The line is currently empty."
   # katz_deliz += 1
