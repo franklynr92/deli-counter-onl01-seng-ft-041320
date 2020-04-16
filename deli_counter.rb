@@ -30,7 +30,7 @@ def line(q)
     puts "The line is currently empty."
   else 
     
-    q.each_with_indexputs "The line is currently: {|name, index|
+    q.each_with_index puts "The line is currently: {|name, index|
     puts "index:#{index} for #{name}"}
   end
 end
