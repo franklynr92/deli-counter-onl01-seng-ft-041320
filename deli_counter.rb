@@ -16,15 +16,15 @@ def line(q)
   end
 end
 
-# def take_a_number(katz_deli, other_deli)
-#   other_deli[]
-#   other_deli.each do |client|
-#   puts "The line is currently: #{"client" + 1}"
-#   #for each of clients(elements/strings) in the array that we input empty
-#   #adds the person to end of the array
+def take_a_number(katz_deli, other_deli)
+  other_deli[]
+  other_deli.each do |client|
+  puts "The line is currently: #{"client" + 1}"
+  #for each of clients(elements/strings) in the array that we input empty
+  #adds the person to end of the array
   
-# end  
-# end 
+end  
+end 
 
 # def now_serving
 # if #condition 
