@@ -7,9 +7,9 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(line, katz_deliz)
-  katz_deli[]
-  katz_deli.each do |client|
+def take_a_number(line)
+  other_deli[]
+  other_deli.each do |client|
   puts "The line is currently: #{"client"}"
   #for each of clients(elements/strings) in the array that we input empty
   #adds the person to end of the array
