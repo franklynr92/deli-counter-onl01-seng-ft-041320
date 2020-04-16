@@ -18,9 +18,9 @@ end
 end 
 
 
-def now_serving
- if #condition 
-   puts "Welcome, #{name}. You are #{number} in line."
-  else # condition = 0
-  puts "There is nobody waiting to be served!"
-end
+# def now_serving
+# if #condition 
+#   puts "Welcome, #{name}. You are #{number} in line."
+#   else # condition = 0
+#   puts "There is nobody waiting to be served!"
+# end
