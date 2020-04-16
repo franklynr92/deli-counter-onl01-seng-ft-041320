@@ -8,8 +8,8 @@ end
 end
 
 def take_a_number(array, line)
-  clients[]
-  clients.each do |client|
+  other_deli[]
+  other_deli.each do |client|
   puts"The line is currently: #{"client"}"
   #for each of clients(elements/strings) in the array that we input empty
   #adds the person to end of the array
