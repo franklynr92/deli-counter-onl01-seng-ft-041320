@@ -34,7 +34,7 @@ def line(q)
     #["logan", "Avi" "Spencer"]
     #The line if currently:["logan", "Avi" "Spencer"]
     other_deli= []
-    q.each_with_index {|name, index| other_deli << "#{index+1}. #{name}"
+    q.each_with_index {|name, index| other_deli << "#{index+1}. #{name}"}
     puts "The line if currently: #{other_deli.join(", ")}"
     
   end
