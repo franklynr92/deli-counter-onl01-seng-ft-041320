@@ -16,7 +16,7 @@ def line(q)
   end
 end
 
-def take_a_number( a, name)
+def take_a_number(a, name)
   a.push(name)
   place = a.index(name)
   puts "Welcome, #{name}. You are number  #{place + 1} in line"
