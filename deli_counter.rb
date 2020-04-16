@@ -33,6 +33,9 @@ def line(q)
     #3. the return value ultimately needs to be one string
     #["logan", "Avi" "Spencer"]
     #The line if currently:["logan", "Avi" "Spencer"]
-    puts "The line if currently: #{q.join(" , ")}"
+    other_deli= []
+    q.each_with_index {|name, index| "#{index+1}. #{name}"
+    puts "The line if currently: #{q.join(", ")}"
+    
   end
 end
