@@ -16,14 +16,15 @@ def line(q)
   end
 end
 
-def take_a_number(a, name)
-  a.push(name)
-  place = a.index(name)
-  puts "Welcome, #{name}. You are number  #{place + 1} in line."
+def take_a_number(q, name)
+  q.push(name)
+  place = q.index(name)
+   puts "Welcome, #{name}. You are number #{place+1} in line."
+end
   
   #for each of clients(elements/strings) in the array that we input empty
   #adds the person to end of the array
-end  
+
 
 
 
