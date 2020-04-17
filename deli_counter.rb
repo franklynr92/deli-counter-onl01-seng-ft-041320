@@ -27,13 +27,20 @@ end
 
 
 
-
+# def now_serving(q)
+#   if q.size == 0 
+#     puts "There is nobody waiting to be served!"
+#   else
+#     puts "Currently serving #{q.first}."
+#     q.shift
+#   end
+# end
 
 def now_serving(q)
 if q.size == 0
      puts "There is nobody waiting to be served!" 
   else 
-    puts "currently serving #{q.first}"
+    puts "currently serving #{q.first}."
     q.shift
 # if #condition 
 #   puts "Welcome, #{name}. You are #{number} in line."
