@@ -33,7 +33,8 @@ def now_serving(q)
 if q.size == 0
      puts "There is nobody waiting to be served!" 
   else 
-    puts 
+    
+    puts "currently serving #{name}"
 # if #condition 
 #   puts "Welcome, #{name}. You are #{number} in line."
 #   else # condition = 0
