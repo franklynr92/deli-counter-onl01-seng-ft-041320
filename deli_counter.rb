@@ -26,16 +26,6 @@ end
   #adds the person to end of the array
 
 
-
-# def now_serving(q)
-#   if q.size == 0 
-#     puts "There is nobody waiting to be served!"
-#   else
-#     puts "Currently serving #{q.first}."
-#     q.shift
-#   end
-# end
-
 def now_serving(q)
 if q.size == 0
      puts "There is nobody waiting to be served!" 
