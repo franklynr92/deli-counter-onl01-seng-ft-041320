@@ -33,7 +33,7 @@ def now_serving(q)
 if q.size == 0
      puts "There is nobody waiting to be served!" 
   else 
-    q.pop(name)
+    q.shift(name)
     q.index(name)
     puts "currently serving #{name}"
 # if #condition 
